@@ -15,7 +15,7 @@
 <%  // Scriptlet 1: check whether the book list is ready
   Vector booklist = (Vector)session.getValue("ebookshop.list");
   if (booklist == null) {
-    response.sendRedirect("/ebookshop/eshop");
+    response.sendRedirect("/JSPJSF1/eshop");
     }
   else {
   %>
